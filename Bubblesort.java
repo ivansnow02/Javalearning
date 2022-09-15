@@ -8,7 +8,7 @@ public class Bubblesort{
         }
         Bubblesort sorter = new Bubblesort();
         sorter.sort(a);
-
+        input.close();
     }
 
     public void sort(int[] a){
@@ -26,4 +26,5 @@ public class Bubblesort{
             System.out.printf("%d ",i);
         }
     }
+    
 }

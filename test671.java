@@ -17,5 +17,6 @@ public class test671{
         for(int i : arr1) System.out.printf("arr1: %d ",i);
         System.out.println("");
         for(int i : arr2) System.out.printf("arr2: %d ",i);
+        input.close();
     }
 }
